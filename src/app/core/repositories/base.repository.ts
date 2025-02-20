@@ -11,15 +11,40 @@ export default abstract class BaseRepository<T, V> {
     /**
      * Cada serviço concreto deve definir sou endpoint.
      */
-    protected abstract get endpoint(): string;
+    protected abstract get defaultEndpoint(): string;
+
+    /**
+     * Endpoints específicos para cada operação.
+     * Por padrão, será retornado o defaultEndpoint, mas podem ser sobrescritos.
+     */
+    protected get createEndpoint(): string {
+        return this.defaultEndpoint;
+    }
+
+    protected get readEndpoint(): string {
+        return this.defaultEndpoint;
+    }
+
+    protected get readAllEndpoint(): string {
+        return this.defaultEndpoint;
+    }
+
+    protected get updateEndpoint(): string {
+        return this.defaultEndpoint;
+    }
+
+    protected get deleteEndpoint(): string {
+        return this.defaultEndpoint;
+    }
+
 
     /**
      * Permite que a URL do endpoint seja alterado, se necessário.
      * 
      * @returns retorna o novo endereço do endpoint.
      */
-    protected get getUrl(): string {
-        return `${this.baseUrl}/${this.endpoint}`;
+    protected buildUrl(endpoint: string): string {
+        return `${this.baseUrl}/${endpoint}`;
     }
 
     /**
@@ -60,7 +85,7 @@ export default abstract class BaseRepository<T, V> {
      * @returns Retorna um array View Model (tipo V).
      */
     protected getAll(params?: HttpParams, headers?: HttpHeaders): Observable<V[]> {
-        return this.http.get<T[]>(`${this.getUrl}`, {params, headers}).pipe(
+        return this.http.get<T[]>(`${this.buildUrl(this.readAllEndpoint)}`, {params, headers}).pipe(
             map(dto => dto.map(this.fromToView.bind(this)))
         );
     }
@@ -75,7 +100,7 @@ export default abstract class BaseRepository<T, V> {
      * @returns Retorna um objeto View Model (tipo V).
      */
     protected getById(id: string | number, params?: HttpParams, headers?: HttpHeaders): Observable<V> {
-        return this.http.get<T>(`${this.getUrl}/${id}`, {params, headers}).pipe(
+        return this.http.get<T>(`${this.buildUrl(this.readEndpoint)}/${id}`, {params, headers}).pipe(
             map(this.fromToView.bind(this))
         );
     }
@@ -91,7 +116,7 @@ export default abstract class BaseRepository<T, V> {
      */
     protected create(item: V, params?: HttpParams, headers?: HttpHeaders): Observable<V> {
         const payload: T = this.fromToApi(item);
-        return this.http.post<T>(`${this.getUrl}`, payload, {params, headers}).pipe(
+        return this.http.post<T>(`${this.buildUrl(this.createEndpoint)}`, payload, {params, headers}).pipe(
             map(this.fromToView.bind(this))
         );
     }
@@ -107,7 +132,7 @@ export default abstract class BaseRepository<T, V> {
      */
     protected update(id: number | string, item: V, params?: HttpParams, headers?: HttpHeaders): Observable<V> {
         const payload: T = this.fromToApi(item);
-        return this.http.put<T>(`${this.getUrl}/${id}`, payload, {params, headers}).pipe(
+        return this.http.put<T>(`${this.buildUrl(this.updateEndpoint)}/${id}`, payload, {params, headers}).pipe(
             map(this.fromToView.bind(this))
         );
     }
@@ -122,6 +147,6 @@ export default abstract class BaseRepository<T, V> {
      * @returns Retorna o registro atualizado.
      */
     protected delete(id: number | string, params?: HttpParams, headers?: HttpHeaders): Observable<void> {
-        return this.http.delete<void>(`${this.getUrl}/${id}`, {params, headers})
+        return this.http.delete<void>(`${this.buildUrl(this.deleteEndpoint)}/${id}`, {params, headers})
     };
 }
