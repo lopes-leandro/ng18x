@@ -1,0 +1,37 @@
+[
+    {
+        "poliza": 115966885,
+        "data_inicio": 20240927,
+        "data_fim": 20250927,
+        "apolice": "5177202418140000389",
+        "nombre": "JULIAN PRADO ALVES"
+    },
+    {
+        "poliza": 115966886,
+        "data_inicio": 20240927,
+        "data_fim": 20250927,
+        "apolice": "5177202418140000390",
+        "nombre": "MANUEL FLUENTES SOSA"
+    },
+    {
+        "poliza": 115966736,
+        "data_inicio": 20240905,
+        "data_fim": 20250905,
+        "apolice": "5177202418140000359",
+        "nombre": "PEDRO HENRIQUE"
+    },
+    {
+        "poliza": 115966585,
+        "data_inicio": 20240828,
+        "data_fim": 20250828,
+        "apolice": "5177202418140000342",
+        "nombre": "PAULO MARIA"
+    },
+    {
+        "poliza": 115957265,
+        "data_inicio": 20230329,
+        "data_fim": 20230329,
+        "apolice": "517720221A140000068",
+        "nombre": "CONDOMINIO DI BRESCIA RESIDENCE"
+    }
+]
