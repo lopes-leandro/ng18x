@@ -1,6 +1,6 @@
 import { HttpClient, HttpHeaders, HttpParams } from "@angular/common/http";
 import { inject } from "@angular/core";
-import { map, Observable } from "rxjs";
+import { catchError, map, Observable, throwError } from "rxjs";
 import { environment } from "src/environments/environment.development";
 
 export default abstract class BaseRepository<T, V> {
@@ -78,6 +78,16 @@ export default abstract class BaseRepository<T, V> {
     }
 
     /**
+     * Tratamento genérico de erros.
+     * 
+     * @param error 
+     * @returns 
+     */
+    protected handleError(error: unknown): Observable<never> {
+        return throwError(() => error);
+    }
+
+    /**
      * Método que retorna todos os registros,
      * convertendo cada objeto retornado da API (tipo T) para a View Model (tipo V).
      * 
@@ -85,8 +95,9 @@ export default abstract class BaseRepository<T, V> {
      * @returns Retorna um array View Model (tipo V).
      */
     protected getAll(params?: HttpParams, headers?: HttpHeaders): Observable<V[]> {
-        return this.http.get<T[]>(`${this.buildUrl(this.readAllEndpoint)}`, {params, headers}).pipe(
-            map(dto => dto.map(this.fromToView.bind(this)))
+        return this.http.get<T[]>(`${this.buildUrl(this.readAllEndpoint)}`, { params, headers }).pipe(
+            map(dto => dto.map(this.fromToView.bind(this))),
+            catchError(error => this.handleError(error))
         );
     }
 
@@ -100,8 +111,9 @@ export default abstract class BaseRepository<T, V> {
      * @returns Retorna um objeto View Model (tipo V).
      */
     protected getById(id: string | number, params?: HttpParams, headers?: HttpHeaders): Observable<V> {
-        return this.http.get<T>(`${this.buildUrl(this.readEndpoint)}/${id}`, {params, headers}).pipe(
-            map(this.fromToView.bind(this))
+        return this.http.get<T>(`${this.buildUrl(this.readEndpoint)}/${id}`, { params, headers }).pipe(
+            map(this.fromToView.bind(this)),
+            catchError(error => this.handleError(error))
         );
     }
 
@@ -116,8 +128,9 @@ export default abstract class BaseRepository<T, V> {
      */
     protected create(item: V, params?: HttpParams, headers?: HttpHeaders): Observable<V> {
         const payload: T = this.fromToApi(item);
-        return this.http.post<T>(`${this.buildUrl(this.createEndpoint)}`, payload, {params, headers}).pipe(
-            map(this.fromToView.bind(this))
+        return this.http.post<T>(`${this.buildUrl(this.createEndpoint)}`, payload, { params, headers }).pipe(
+            map(this.fromToView.bind(this)),
+            catchError(error => this.handleError(error))
         );
     }
 
@@ -132,8 +145,9 @@ export default abstract class BaseRepository<T, V> {
      */
     protected update(id: number | string, item: V, params?: HttpParams, headers?: HttpHeaders): Observable<V> {
         const payload: T = this.fromToApi(item);
-        return this.http.put<T>(`${this.buildUrl(this.updateEndpoint)}/${id}`, payload, {params, headers}).pipe(
-            map(this.fromToView.bind(this))
+        return this.http.put<T>(`${this.buildUrl(this.updateEndpoint)}/${id}`, payload, { params, headers }).pipe(
+            map(this.fromToView.bind(this)),
+            catchError(error => this.handleError(error))
         );
     }
 
@@ -147,6 +161,8 @@ export default abstract class BaseRepository<T, V> {
      * @returns Retorna o registro atualizado.
      */
     protected delete(id: number | string, params?: HttpParams, headers?: HttpHeaders): Observable<void> {
-        return this.http.delete<void>(`${this.buildUrl(this.deleteEndpoint)}/${id}`, {params, headers})
+        return this.http.delete<void>(`${this.buildUrl(this.deleteEndpoint)}/${id}`, { params, headers }).pipe(
+            catchError(error => this.handleError(error))
+        )
     };
 }
