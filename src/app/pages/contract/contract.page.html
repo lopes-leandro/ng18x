@@ -1,0 +1,41 @@
+<p>contract works!</p>
+<form [formGroup]="basicForm" (ngSubmit)="onSubmit()">
+
+    <div>
+        <label for="lblFullName">Full name:</label>
+        <input type="text" id="lblFullName" formControlName="fullName">
+    </div>
+
+    <div>
+        <label for="lblEmail">Email:</label>
+        <input type="email" formControlName="email" id="lblEmail">
+    </div>
+
+    <ng-container *ngIf="basicData$ | async as basicData">
+        <div>
+            <label for="ddlNationalities">Nacionalidade:</label>
+            <select id="ddlNationalities" formControlName="nationaly">
+                <option value="-1">Selecione</option>
+                @for (item of basicData.nationalities$; track $index) {
+                <option [value]="item.id">
+                    {{item.descricao}}
+                </option>
+                }
+            </select>
+        </div>
+        <div>
+            <label for="occupation">Ocupações:</label>
+            <select id="occupation" formControlName="occupation">
+                <option [value]="-1">Selecione</option>
+                @for (item of basicData.occupations$; track $index) {
+                <option [value]="item.id">
+                    {{item.description}}
+                </option>
+                }
+            </select>
+        </div>
+
+        <button type="submit" [disabled]="basicForm.invalid">Submit</button>
+    </ng-container>
+
+</form>

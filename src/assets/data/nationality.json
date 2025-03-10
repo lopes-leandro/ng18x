@@ -1,0 +1,1330 @@
+[
+    {
+        "id": 170,
+        "nationality_name": "ABISSÍNIA"
+    },
+    {
+        "id": 171,
+        "nationality_name": "AÇORES"
+    },
+    {
+        "id": 172,
+        "nationality_name": "AFAR FRANCES"
+    },
+    {
+        "id": 241,
+        "nationality_name": "AFEGANISTÃO"
+    },
+    {
+        "id": 93,
+        "nationality_name": "ALBÂNIA"
+    },
+    {
+        "id": 30,
+        "nationality_name": "ALEMANHA"
+    },
+    {
+        "id": 174,
+        "nationality_name": "ALTO VOLTA"
+    },
+    {
+        "id": 94,
+        "nationality_name": "ANDORRA"
+    },
+    {
+        "id": 175,
+        "nationality_name": "ANGOLA"
+    },
+    {
+        "id": 334,
+        "nationality_name": "ANTÁRTICA FRANCESA"
+    },
+    {
+        "id": 337,
+        "nationality_name": "ANTÁRTICO ARGENTINO"
+    },
+    {
+        "id": 333,
+        "nationality_name": "ANTÁRTICO BRITÂNICO, TERRITÓRIO"
+    },
+    {
+        "id": 336,
+        "nationality_name": "ANTÁRTICO CHILENO"
+    },
+    {
+        "id": 338,
+        "nationality_name": "ANTÁRTICO NORUEGUES"
+    },
+    {
+        "id": 28,
+        "nationality_name": "ANTÍGUA E. DEP. BARBUDA"
+    },
+    {
+        "id": 29,
+        "nationality_name": "ANTILHAS HOLANDESAS"
+    },
+    {
+        "id": 339,
+        "nationality_name": "APATRIDA"
+    },
+    {
+        "id": 242,
+        "nationality_name": "ARÁBIA SAUDITA"
+    },
+    {
+        "id": 176,
+        "nationality_name": "ARGÉLIA"
+    },
+    {
+        "id": 21,
+        "nationality_name": "ARGENTINA"
+    },
+    {
+        "id": 347,
+        "nationality_name": "ARMÊNIA"
+    },
+    {
+        "id": 289,
+        "nationality_name": "ARQUIPÉLAGO DE BISMARK"
+    },
+    {
+        "id": 285,
+        "nationality_name": "ARQUIPÉLAGO MANAHIKI"
+    },
+    {
+        "id": 286,
+        "nationality_name": "ARQUIPÉLAGO MIDWAY"
+    },
+    {
+        "id": 33,
+        "nationality_name": "ARUBA"
+    },
+    {
+        "id": 198,
+        "nationality_name": "ASCENSÃO E TRISTÃO DA CUNHA,IS"
+    },
+    {
+        "id": 287,
+        "nationality_name": "ASHMORE E CARTIER"
+    },
+    {
+        "id": 288,
+        "nationality_name": "AUSTRÁLIA"
+    },
+    {
+        "id": 95,
+        "nationality_name": "ÁUSTRIA"
+    },
+    {
+        "id": 138,
+        "nationality_name": "AZERBAIJÃO"
+    },
+    {
+        "id": 243,
+        "nationality_name": "BAHREIN"
+    },
+    {
+        "id": 342,
+        "nationality_name": "BANGLADESH"
+    },
+    {
+        "id": 139,
+        "nationality_name": "BASHKISTA"
+    },
+    {
+        "id": 44,
+        "nationality_name": "BARBADOS"
+    },
+    {
+        "id": 177,
+        "nationality_name": "BECHUANALÂNDIA"
+    },
+    {
+        "id": 31,
+        "nationality_name": "BÉLGICA"
+    },
+    {
+        "id": 46,
+        "nationality_name": "BELIZE"
+    },
+    {
+        "id": 178,
+        "nationality_name": "BENIN"
+    },
+    {
+        "id": 83,
+        "nationality_name": "BERMUDAS"
+    },
+    {
+        "id": 246,
+        "nationality_name": "BHUTAN"
+    },
+    {
+        "id": 244,
+        "nationality_name": "BIRMÂNIA"
+    },
+    {
+        "id": 22,
+        "nationality_name": "BOLÍVIA"
+    },
+    {
+        "id": 134,
+        "nationality_name": "BÓSNIA HERZEGOVINA"
+    },
+    {
+        "id": 179,
+        "nationality_name": "BOTSUANA"
+    },
+    {
+        "id": 10,
+        "nationality_name": "BRASIL"
+    },
+    {
+        "id": 245,
+        "nationality_name": "BRUNEI"
+    },
+    {
+        "id": 96,
+        "nationality_name": "BULGÁRIA"
+    },
+    {
+        "id": 238,
+        "nationality_name": "BURKINA FASSO"
+    },
+    {
+        "id": 180,
+        "nationality_name": "BURUNDI"
+    },
+    {
+        "id": 141,
+        "nationality_name": "BURYAT"
+    },
+    {
+        "id": 343,
+        "nationality_name": "CABO VERDE"
+    },
+    {
+        "id": 181,
+        "nationality_name": "CAMARÕES"
+    },
+    {
+        "id": 34,
+        "nationality_name": "CANADÁ"
+    },
+    {
+        "id": 142,
+        "nationality_name": "CARELIA"
+    },
+    {
+        "id": 247,
+        "nationality_name": "CATAR"
+    },
+    {
+        "id": 143,
+        "nationality_name": "CAZAQUISTÃO"
+    },
+    {
+        "id": 248,
+        "nationality_name": "CEILÃO"
+    },
+    {
+        "id": 182,
+        "nationality_name": "CEUTA E MELILLA"
+    },
+    {
+        "id": 183,
+        "nationality_name": "CHADE"
+    },
+    {
+        "id": 144,
+        "nationality_name": "CHECHEN INGUSTH"
+    },
+    {
+        "id": 23,
+        "nationality_name": "CHILE"
+    },
+    {
+        "id": 42,
+        "nationality_name": "CHINA"
+    },
+    {
+        "id": 249,
+        "nationality_name": "CHINA (TAIWAN)"
+    },
+    {
+        "id": 97,
+        "nationality_name": "CHIPRE"
+    },
+    {
+        "id": 145,
+        "nationality_name": "CHUVASH"
+    },
+    {
+        "id": 275,
+        "nationality_name": "CINGAPURA"
+    },
+    {
+        "id": 26,
+        "nationality_name": "COLÔMBIA"
+    },
+    {
+        "id": 40,
+        "nationality_name": "COMUNIDADE DAS BAHAMAS"
+    },
+    {
+        "id": 54,
+        "nationality_name": "COMUNIDADE DOMINICANA"
+    },
+    {
+        "id": 185,
+        "nationality_name": "CONGO"
+    },
+    {
+        "id": 43,
+        "nationality_name": "CORÉIA"
+    },
+    {
+        "id": 186,
+        "nationality_name": "COSTA DO MARFIM"
+    },
+    {
+        "id": 51,
+        "nationality_name": "COSTA RICA"
+    },
+    {
+        "id": 250,
+        "nationality_name": "COVEITE"
+    },
+    {
+        "id": 130,
+        "nationality_name": "CROÁCIA"
+    },
+    {
+        "id": 52,
+        "nationality_name": "CUBA"
+    },
+    {
+        "id": 53,
+        "nationality_name": "CURAÇAO"
+    },
+    {
+        "id": 146,
+        "nationality_name": "DAGESTA"
+    },
+    {
+        "id": 187,
+        "nationality_name": "DAOMÉ"
+    },
+    {
+        "id": 340,
+        "nationality_name": "DEPENDÊNCIA DE ROSS"
+    },
+    {
+        "id": 98,
+        "nationality_name": "DINAMARCA"
+    },
+    {
+        "id": 188,
+        "nationality_name": "DJIBUTI"
+    },
+    {
+        "id": 99,
+        "nationality_name": "EIRE"
+    },
+    {
+        "id": 251,
+        "nationality_name": "EMIRADOS ÁRABES UNIDOS"
+    },
+    {
+        "id": 27,
+        "nationality_name": "EQUADOR"
+    },
+    {
+        "id": 100,
+        "nationality_name": "ESCÓCIA"
+    },
+    {
+        "id": 136,
+        "nationality_name": "ESLOVÁQUIA"
+    },
+    {
+        "id": 132,
+        "nationality_name": "ESLOVÊNIA"
+    },
+    {
+        "id": 35,
+        "nationality_name": "ESPANHA"
+    },
+    {
+        "id": 129,
+        "nationality_name": "ESTADO DA CIDADE DO VATICANO"
+    },
+    {
+        "id": 57,
+        "nationality_name": "ESTADOS ASSOC. DAS ANTILHAS"
+    },
+    {
+        "id": 36,
+        "nationality_name": "ESTADOS UNIDOS DA AMÉRICA (EUA)"
+    },
+    {
+        "id": 147,
+        "nationality_name": "ESTÔNIA"
+    },
+    {
+        "id": 190,
+        "nationality_name": "ETIÓPIA"
+    },
+    {
+        "id": 252,
+        "nationality_name": "FILIPINAS"
+    },
+    {
+        "id": 102,
+        "nationality_name": "FINLÂNDIA"
+    },
+    {
+        "id": 37,
+        "nationality_name": "FRANÇA"
+    },
+    {
+        "id": 192,
+        "nationality_name": "GÂMBIA"
+    },
+    {
+        "id": 193,
+        "nationality_name": "GANA"
+    },
+    {
+        "id": 194,
+        "nationality_name": "GAZA"
+    },
+    {
+        "id": 148,
+        "nationality_name": "GEÓRGIA"
+    },
+    {
+        "id": 103,
+        "nationality_name": "GIBRALTAR"
+    },
+    {
+        "id": 149,
+        "nationality_name": "GORNO ALTAI"
+    },
+    {
+        "id": 32,
+        "nationality_name": "GRÃ-BRETANHA"
+    },
+    {
+        "id": 59,
+        "nationality_name": "GRANADA"
+    },
+    {
+        "id": 104,
+        "nationality_name": "GRÉCIA"
+    },
+    {
+        "id": 84,
+        "nationality_name": "GROENLÂNDIA"
+    },
+    {
+        "id": 292,
+        "nationality_name": "GUAM"
+    },
+    {
+        "id": 61,
+        "nationality_name": "GUATEMALA"
+    },
+    {
+        "id": 87,
+        "nationality_name": "GUIANA FRANCESA"
+    },
+    {
+        "id": 195,
+        "nationality_name": "GUINÉ"
+    },
+    {
+        "id": 344,
+        "nationality_name": "GUINÉ BISSAU"
+    },
+    {
+        "id": 196,
+        "nationality_name": "GUINÉ EQUATORIAL"
+    },
+    {
+        "id": 105,
+        "nationality_name": "HOLANDA"
+    },
+    {
+        "id": 64,
+        "nationality_name": "HONDURAS"
+    },
+    {
+        "id": 63,
+        "nationality_name": "HONDURAS BRITÂNICAS"
+    },
+    {
+        "id": 253,
+        "nationality_name": "HONG-KONG"
+    },
+    {
+        "id": 106,
+        "nationality_name": "HUNGRIA"
+    },
+    {
+        "id": 254,
+        "nationality_name": "IEMEN"
+    },
+    {
+        "id": 345,
+        "nationality_name": "IEMEN DO SUL"
+    },
+    {
+        "id": 197,
+        "nationality_name": "IFNI"
+    },
+    {
+        "id": 300,
+        "nationality_name": "ILHA JOHNSTON E SAND"
+    },
+    {
+        "id": 69,
+        "nationality_name": "ILHA MILHOS"
+    },
+    {
+        "id": 293,
+        "nationality_name": "ILHAS BAKER"
+    },
+    {
+        "id": 107,
+        "nationality_name": "ILHAS BALEARES"
+    },
+    {
+        "id": 199,
+        "nationality_name": "ILHAS CANÁRIAS"
+    },
+    {
+        "id": 294,
+        "nationality_name": "ILHAS CANTÃO E ENDERBURG"
+    },
+    {
+        "id": 295,
+        "nationality_name": "ILHAS CAROLINAS"
+    },
+    {
+        "id": 297,
+        "nationality_name": "ILHAS CHRISTMAS"
+    },
+    {
+        "id": 184,
+        "nationality_name": "ILHAS COMORES"
+    },
+    {
+        "id": 290,
+        "nationality_name": "ILHAS COOK"
+    },
+    {
+        "id": 108,
+        "nationality_name": "ILHAS COSMOLEDO (LOMORES)"
+    },
+    {
+        "id": 117,
+        "nationality_name": "ILHAS DE MAN"
+    },
+    {
+        "id": 109,
+        "nationality_name": "ILHAS DO CANAL"
+    },
+    {
+        "id": 296,
+        "nationality_name": "ILHAS DO PACÍFICO"
+    },
+    {
+        "id": 58,
+        "nationality_name": "ILHAS FALKLANDS"
+    },
+    {
+        "id": 101,
+        "nationality_name": "ILHAS FAROES"
+    },
+    {
+        "id": 298,
+        "nationality_name": "ILHAS GILBERT"
+    },
+    {
+        "id": 60,
+        "nationality_name": "ILHAS GUADALUPE"
+    },
+    {
+        "id": 299,
+        "nationality_name": "ILHAS HOWLAND E JARVIS"
+    },
+    {
+        "id": 301,
+        "nationality_name": "ILHAS KINGMAN REEF"
+    },
+    {
+        "id": 313,
+        "nationality_name": "ILHAS LINHA"
+    },
+    {
+        "id": 305,
+        "nationality_name": "ILHAS MACDONAL E HEARD"
+    },
+    {
+        "id": 302,
+        "nationality_name": "ILHAS MACQUAIRE"
+    },
+    {
+        "id": 67,
+        "nationality_name": "ILHAS MALVINAS"
+    },
+    {
+        "id": 303,
+        "nationality_name": "ILHAS MARIANAS"
+    },
+    {
+        "id": 304,
+        "nationality_name": "ILHAS MARSHALL"
+    },
+    {
+        "id": 306,
+        "nationality_name": "ILHAS NIUE"
+    },
+    {
+        "id": 307,
+        "nationality_name": "ILHAS NORFOLK"
+    },
+    {
+        "id": 315,
+        "nationality_name": "ILHAS NOVA CALEDÔNIA"
+    },
+    {
+        "id": 318,
+        "nationality_name": "ILHAS NOVAS HEBRIDAS"
+    },
+    {
+        "id": 308,
+        "nationality_name": "ILHAS PALAU"
+    },
+    {
+        "id": 320,
+        "nationality_name": "ILHAS PÁSCOA"
+    },
+    {
+        "id": 321,
+        "nationality_name": "ILHAS PITCAIRIN"
+    },
+    {
+        "id": 309,
+        "nationality_name": "ILHAS SALOMmO"
+    },
+    {
+        "id": 326,
+        "nationality_name": "ILHAS SANTA CRUZ"
+    },
+    {
+        "id": 65,
+        "nationality_name": "ILHAS SERRANAS"
+    },
+    {
+        "id": 310,
+        "nationality_name": "ILHAS TOKELAU"
+    },
+    {
+        "id": 80,
+        "nationality_name": "ILHAS TURCA"
+    },
+    {
+        "id": 47,
+        "nationality_name": "ILHAS TURKS E CAICOS"
+    },
+    {
+        "id": 82,
+        "nationality_name": "ILHAS VIRGENS AMERICANAS"
+    },
+    {
+        "id": 81,
+        "nationality_name": "ILHAS VIRGENS BRITÂNICAS"
+    },
+    {
+        "id": 311,
+        "nationality_name": "ILHAS WAKE"
+    },
+    {
+        "id": 332,
+        "nationality_name": "ILHAS WALLIS E FUTUNA"
+    },
+    {
+        "id": 255,
+        "nationality_name": "ÍNDIA"
+    },
+    {
+        "id": 256,
+        "nationality_name": "INDONÉSIA"
+    },
+    {
+        "id": 110,
+        "nationality_name": "INGLATERRA"
+    },
+    {
+        "id": 257,
+        "nationality_name": "IRÃ"
+    },
+    {
+        "id": 258,
+        "nationality_name": "IRAQUE"
+    },
+    {
+        "id": 112,
+        "nationality_name": "IRLANDA"
+    },
+    {
+        "id": 111,
+        "nationality_name": "IRLANDA DO NORTE"
+    },
+    {
+        "id": 113,
+        "nationality_name": "ISLÂNDIA"
+    },
+    {
+        "id": 259,
+        "nationality_name": "ISRAEL"
+    },
+    {
+        "id": 39,
+        "nationality_name": "ITÁLIA"
+    },
+    {
+        "id": 114,
+        "nationality_name": "IUGOSLÁVIA"
+    },
+    {
+        "id": 66,
+        "nationality_name": "JAMAICA"
+    },
+    {
+        "id": 41,
+        "nationality_name": "JAPÃO"
+    },
+    {
+        "id": 260,
+        "nationality_name": "JORDÂNIA"
+    },
+    {
+        "id": 150,
+        "nationality_name": "KABARDINO BALKAR"
+    },
+    {
+        "id": 312,
+        "nationality_name": "KALIMATAN"
+    },
+    {
+        "id": 151,
+        "nationality_name": "KALMIR"
+    },
+    {
+        "id": 346,
+        "nationality_name": "KARA KALPAK"
+    },
+    {
+        "id": 152,
+        "nationality_name": "KARACHAEVOCHERKESS"
+    },
+    {
+        "id": 153,
+        "nationality_name": "KHAKASS"
+    },
+    {
+        "id": 261,
+        "nationality_name": "KMER/CAMBOJA"
+    },
+    {
+        "id": 154,
+        "nationality_name": "KOMI"
+    },
+    {
+        "id": 262,
+        "nationality_name": "KUWAIT"
+    },
+    {
+        "id": 263,
+        "nationality_name": "LAOS"
+    },
+    {
+        "id": 200,
+        "nationality_name": "LESOTO"
+    },
+    {
+        "id": 155,
+        "nationality_name": "LETÔNIA"
+    },
+    {
+        "id": 264,
+        "nationality_name": "LÍBANO"
+    },
+    {
+        "id": 201,
+        "nationality_name": "LIBÉRIA"
+    },
+    {
+        "id": 202,
+        "nationality_name": "LÍBIA"
+    },
+    {
+        "id": 115,
+        "nationality_name": "LIECHTENSTEIN"
+    },
+    {
+        "id": 156,
+        "nationality_name": "LITUÂNIA"
+    },
+    {
+        "id": 116,
+        "nationality_name": "LUXEMBURGO"
+    },
+    {
+        "id": 265,
+        "nationality_name": "MACAU"
+    },
+    {
+        "id": 205,
+        "nationality_name": "MADAGASCAR"
+    },
+    {
+        "id": 203,
+        "nationality_name": "MADEIRA"
+    },
+    {
+        "id": 266,
+        "nationality_name": "MALÁSIA"
+    },
+    {
+        "id": 204,
+        "nationality_name": "MALAWI"
+    },
+    {
+        "id": 267,
+        "nationality_name": "MALDIVAS,IS"
+    },
+    {
+        "id": 206,
+        "nationality_name": "MALI"
+    },
+    {
+        "id": 157,
+        "nationality_name": "MARI"
+    },
+    {
+        "id": 207,
+        "nationality_name": "MARROCOS"
+    },
+    {
+        "id": 68,
+        "nationality_name": "MARTINICA"
+    },
+    {
+        "id": 268,
+        "nationality_name": "MASCATE"
+    },
+    {
+        "id": 208,
+        "nationality_name": "MAURÍCIO"
+    },
+    {
+        "id": 209,
+        "nationality_name": "MAURITÂNIA"
+    },
+    {
+        "id": 85,
+        "nationality_name": "MÉXICO"
+    },
+    {
+        "id": 284,
+        "nationality_name": "MIANMA"
+    },
+    {
+        "id": 210,
+        "nationality_name": "MOÇAMBIQUE"
+    },
+    {
+        "id": 158,
+        "nationality_name": "MOLDÁVIA"
+    },
+    {
+        "id": 118,
+        "nationality_name": "MÔNACO"
+    },
+    {
+        "id": 269,
+        "nationality_name": "MONGÓLIA"
+    },
+    {
+        "id": 70,
+        "nationality_name": "MONTE SERRAT"
+    },
+    {
+        "id": 137,
+        "nationality_name": "MONTENEGRO"
+    },
+    {
+        "id": 240,
+        "nationality_name": "NAMÍBIA"
+    },
+    {
+        "id": 314,
+        "nationality_name": "NAURU"
+    },
+    {
+        "id": 270,
+        "nationality_name": "NEPAL"
+    },
+    {
+        "id": 211,
+        "nationality_name": "NGUANE"
+    },
+    {
+        "id": 71,
+        "nationality_name": "NICARÁGUA"
+    },
+    {
+        "id": 213,
+        "nationality_name": "NIGÉRIA"
+    },
+    {
+        "id": 119,
+        "nationality_name": "NORUEGA"
+    },
+    {
+        "id": 316,
+        "nationality_name": "NOVA GUINÉ"
+    },
+    {
+        "id": 317,
+        "nationality_name": "NOVA ZELÂNDIA"
+    },
+    {
+        "id": 271,
+        "nationality_name": "OMAN"
+    },
+    {
+        "id": 159,
+        "nationality_name": "OSSETIA SETENTRIONAL"
+    },
+    {
+        "id": 121,
+        "nationality_name": "PAÍS DE GALES"
+    },
+    {
+        "id": 122,
+        "nationality_name": "PAÍSES BAIXOS"
+    },
+    {
+        "id": 272,
+        "nationality_name": "PALESTINA"
+    },
+    {
+        "id": 72,
+        "nationality_name": "PANAMÁ"
+    },
+    {
+        "id": 73,
+        "nationality_name": "PANAMÁ – ZONA DO CANAL"
+    },
+    {
+        "id": 214,
+        "nationality_name": "PAPUA NOVA GUINÉ"
+    },
+    {
+        "id": 273,
+        "nationality_name": "PAQUISTÃO"
+    },
+    {
+        "id": 24,
+        "nationality_name": "PARAGUAI"
+    },
+    {
+        "id": 89,
+        "nationality_name": "PERU"
+    },
+    {
+        "id": 322,
+        "nationality_name": "POLINÉSIA FRANCESA"
+    },
+    {
+        "id": 123,
+        "nationality_name": "POLÔNIA"
+    },
+    {
+        "id": 74,
+        "nationality_name": "PORTO RICO"
+    },
+    {
+        "id": 45,
+        "nationality_name": "PORTUGAL"
+    },
+    {
+        "id": 215,
+        "nationality_name": "PRAÇAS NORTE AFRICANAS"
+    },
+    {
+        "id": 216,
+        "nationality_name": "PROTETOR DO SUDOESTE AFRICANO"
+    },
+    {
+        "id": 217,
+        "nationality_name": "QUÊNIA"
+    },
+    {
+        "id": 160,
+        "nationality_name": "QUIRGUISTÃO"
+    },
+    {
+        "id": 75,
+        "nationality_name": "QUITASUENO"
+    },
+    {
+        "id": 189,
+        "nationality_name": "REPÚBLICA ÁRABE DO EGITO"
+    },
+    {
+        "id": 218,
+        "nationality_name": "REPÚBLICA CENTRO AFRICANA"
+    },
+    {
+        "id": 173,
+        "nationality_name": "REPÚBLICA DA ÁFRICA DO SUL"
+    },
+    {
+        "id": 140,
+        "nationality_name": "REPÚBLICA DA BIELORRÚSSIA"
+    },
+    {
+        "id": 133,
+        "nationality_name": "REPÚBLICA DA MACEDÔNIA"
+    },
+    {
+        "id": 56,
+        "nationality_name": "REPÚBLICA DE EL SALVADOR"
+    },
+    {
+        "id": 291,
+        "nationality_name": "REPÚBLICA DE FIJI"
+    },
+    {
+        "id": 120,
+        "nationality_name": "REPÚBLICA DE MALTA"
+    },
+    {
+        "id": 191,
+        "nationality_name": "REPÚBLICA DO GABÃO"
+    },
+    {
+        "id": 62,
+        "nationality_name": "REPÚBLICA DO HAITI"
+    },
+    {
+        "id": 212,
+        "nationality_name": "REPÚBLICA DO NÍGER"
+    },
+    {
+        "id": 55,
+        "nationality_name": "REPÚBLICA DOMINICANA"
+    },
+    {
+        "id": 88,
+        "nationality_name": "REPÚBLICA GUIANA"
+    },
+    {
+        "id": 135,
+        "nationality_name": "REPÚBLICA TCHECA"
+    },
+    {
+        "id": 20,
+        "nationality_name": "RESERVADO"
+    },
+    {
+        "id": 48,
+        "nationality_name": "RESERVADO"
+    },
+    {
+        "id": 49,
+        "nationality_name": "RESERVADO"
+    },
+    {
+        "id": 50,
+        "nationality_name": "RESERVADO"
+    },
+    {
+        "id": 219,
+        "nationality_name": "REUNIÃO"
+    },
+    {
+        "id": 220,
+        "nationality_name": "RODÉSIA (ZIMBÁBWE)"
+    },
+    {
+        "id": 124,
+        "nationality_name": "ROMÊNIA"
+    },
+    {
+        "id": 76,
+        "nationality_name": "RONCADOR"
+    },
+    {
+        "id": 221,
+        "nationality_name": "RUANDA"
+    },
+    {
+        "id": 274,
+        "nationality_name": "RUIQUIU,IS"
+    },
+    {
+        "id": 348,
+        "nationality_name": "RÚSSIA"
+    },
+    {
+        "id": 222,
+        "nationality_name": "SAARA ESPANHOL"
+    },
+    {
+        "id": 323,
+        "nationality_name": "SABAH"
+    },
+    {
+        "id": 324,
+        "nationality_name": "SAMOA AMERICANA"
+    },
+    {
+        "id": 325,
+        "nationality_name": "SAMOA OCIDENTAL"
+    },
+    {
+        "id": 125,
+        "nationality_name": "SAN MARINO"
+    },
+    {
+        "id": 223,
+        "nationality_name": "SANTA HELENA"
+    },
+    {
+        "id": 77,
+        "nationality_name": "SANTA LÚCIA"
+    },
+    {
+        "id": 78,
+        "nationality_name": "SÃO CRISTÓVÃO"
+    },
+    {
+        "id": 224,
+        "nationality_name": "SÃO TOMÉ E PRÍNCIPE"
+    },
+    {
+        "id": 79,
+        "nationality_name": "SÃO VICENTE"
+    },
+    {
+        "id": 327,
+        "nationality_name": "SARAWAK"
+    },
+    {
+        "id": 349,
+        "nationality_name": "SENEGAL"
+    },
+    {
+        "id": 276,
+        "nationality_name": "SEQUIN"
+    },
+    {
+        "id": 226,
+        "nationality_name": "SERRA LEOA"
+    },
+    {
+        "id": 131,
+        "nationality_name": "SÉRVIA"
+    },
+    {
+        "id": 225,
+        "nationality_name": "SEYCHELLES"
+    },
+    {
+        "id": 277,
+        "nationality_name": "SÍRIA"
+    },
+    {
+        "id": 227,
+        "nationality_name": "SOMÁLIA, REPÚBLICA"
+    },
+    {
+        "id": 278,
+        "nationality_name": "SRI-LANKA"
+    },
+    {
+        "id": 86,
+        "nationality_name": "ST. PIERRE ET MIQUELON"
+    },
+    {
+        "id": 228,
+        "nationality_name": "SUAZILÂNDIA"
+    },
+    {
+        "id": 229,
+        "nationality_name": "SUDÃO"
+    },
+    {
+        "id": 126,
+        "nationality_name": "SUÉCIA"
+    },
+    {
+        "id": 38,
+        "nationality_name": "SUÍÇA"
+    },
+    {
+        "id": 90,
+        "nationality_name": "SURINAME"
+    },
+    {
+        "id": 127,
+        "nationality_name": "SVALBARD E JAN MAYER,IS"
+    },
+    {
+        "id": 161,
+        "nationality_name": "TADJIQUISTÃO"
+    },
+    {
+        "id": 279,
+        "nationality_name": "TAILÂNDIA"
+    },
+    {
+        "id": 230,
+        "nationality_name": "TANGANICA"
+    },
+    {
+        "id": 350,
+        "nationality_name": "TANZÂNIA"
+    },
+    {
+        "id": 162,
+        "nationality_name": "TARTARIA"
+    },
+    {
+        "id": 128,
+        "nationality_name": "TCHECOSLOVÁQUIA"
+    },
+    {
+        "id": 335,
+        "nationality_name": "TERR. ANTÁRTICO DA AUSTRÁLIA"
+    },
+    {
+        "id": 341,
+        "nationality_name": "TERRAS AUSTRAIS"
+    },
+    {
+        "id": 231,
+        "nationality_name": "TERRIT. BRITÂNICO DO OCEANO ÍNDICO"
+    },
+    {
+        "id": 328,
+        "nationality_name": "TERRITÓRIO DE COCOS"
+    },
+    {
+        "id": 319,
+        "nationality_name": "TERRITÓRIO DE PAPUA"
+    },
+    {
+        "id": 329,
+        "nationality_name": "TIMOR"
+    },
+    {
+        "id": 233,
+        "nationality_name": "TOGO"
+    },
+    {
+        "id": 330,
+        "nationality_name": "TONGA"
+    },
+    {
+        "id": 232,
+        "nationality_name": "TRANSKEI"
+    },
+    {
+        "id": 280,
+        "nationality_name": "TRÉGUA, ESTADO"
+    },
+    {
+        "id": 91,
+        "nationality_name": "TRINIDAD E TOBAGO"
+    },
+    {
+        "id": 234,
+        "nationality_name": "TUNÍSIA"
+    },
+    {
+        "id": 163,
+        "nationality_name": "TURCOMENISTÃO"
+    },
+    {
+        "id": 281,
+        "nationality_name": "TURQUIA"
+    },
+    {
+        "id": 331,
+        "nationality_name": "TUVALU"
+    },
+    {
+        "id": 164,
+        "nationality_name": "TUVIN"
+    },
+    {
+        "id": 165,
+        "nationality_name": "UCRÂNIA"
+    },
+    {
+        "id": 166,
+        "nationality_name": "UDMURT"
+    },
+    {
+        "id": 235,
+        "nationality_name": "UGANDA"
+    },
+    {
+        "id": 167,
+        "nationality_name": "UNIÃO SOVIÉTICA"
+    },
+    {
+        "id": 25,
+        "nationality_name": "URUGUAI"
+    },
+    {
+        "id": 168,
+        "nationality_name": "UZBEQUISTÃO"
+    },
+    {
+        "id": 92,
+        "nationality_name": "VENEZUELA"
+    },
+    {
+        "id": 282,
+        "nationality_name": "VIETNÃ DO NORTE"
+    },
+    {
+        "id": 283,
+        "nationality_name": "VIETNÃ DO SUL"
+    },
+    {
+        "id": 169,
+        "nationality_name": "YAKUT"
+    },
+    {
+        "id": 236,
+        "nationality_name": "ZAIRE"
+    },
+    {
+        "id": 237,
+        "nationality_name": "ZÂMBIA"
+    },
+    {
+        "id": 239,
+        "nationality_name": "ZIMBÁBWE"
+    }
+]
