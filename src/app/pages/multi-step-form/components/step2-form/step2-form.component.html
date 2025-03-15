@@ -1,0 +1,32 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <div class="mb-4">
+        <label for="field1" class="block text-sm font-medium text-gray-700">Campo 1</label>
+        <input type="text" id="field1" formControlName="field1"
+            class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+        @if (field1.invalid && (field1.dirty || field1.touched)) {
+        <div class="text-red-500 text-sm mt-1">
+            Campo obrigatório
+        </div>
+        }
+    </div>
+    <div class="mb-4">
+        <label for="field2" class="block text-sm font-medium text-gray-700">Campo 2</label>
+        <input type="text" id="field2" formControlName="field2"
+            class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+        @if (field2.invalid && (field2.dirty || field2.touched)) {
+        <div class="text-red-500 text-sm mt-1">
+            Campo obrigatório
+        </div>
+        }
+    </div>
+    <div class="mb-4">
+        <label for="field3" class="block text-sm font-medium text-gray-700">Campo 3</label>
+        <input type="text" id="field3" formControlName="field3"
+            class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+        @if (field3.invalid && (field3.dirty || field3.touched)) {
+        <div class="text-red-500 text-sm mt-1">
+            Campo obrigatório
+        </div>
+        }
+    </div>
+</form>

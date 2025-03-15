@@ -1,1 +1,1 @@
-export * from './api-service.interceptor';
+export * from './api-service.token';

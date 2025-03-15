@@ -1,12 +1,12 @@
 import { HttpClient } from '@angular/common/http';
 import { inject, Injectable } from '@angular/core';
-import { ApiService } from '@core/contracts';
+import { ApiContract } from '@core/contracts';
 import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
-export class BaseApiService implements ApiService {
+export class BaseApiService implements ApiContract {
 
   protected http = inject(HttpClient);
   

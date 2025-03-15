@@ -1,0 +1,67 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <div class="mb-4">
+        <label for="field1" class="block text-sm font-medium text-gray-700">Campo 1</label>
+        <input type="text" id="field1" formControlName="field1"
+            class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+        @if (field1.invalid && (field1.dirty || field1.touched)) {
+        <div class="text-red-500 text-sm mt-1">
+            Campo obrigatório
+        </div>
+        }
+    </div>
+    <div class="mb-4">
+        <label for="field2" class="block text-sm font-medium text-gray-700">Campo 2</label>
+        <input type="text" id="field2" formControlName="field2"
+            class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+        @if (field2.invalid && (field2.dirty || field2.touched)) {
+        <div class="text-red-500 text-sm mt-1">
+            Campo obrigatório
+        </div>
+        }
+    </div>
+    <div class="mb-4">
+        <label for="field3" class="block text-sm font-medium text-gray-700">Campo 3</label>
+        <input type="text" id="field3" formControlName="field3"
+            class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+        @if (field3.invalid && (field3.dirty || field3.touched)) {
+        <div class="text-red-500 text-sm mt-1">
+            Campo obrigatório
+        </div>
+        }
+    </div>
+
+    <div class="mt-6 p-4 bg-gray-100 rounded">
+        <h3>Resumo do Contrato</h3>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+                <h4 class="font-medium">Etapa 1:</h4>
+                <p><strong>Campo 1:</strong> {{step1Data.field1}}</p>
+                <p><strong>Campo 2:</strong> {{step1Data.field2}}</p>
+
+                @if (step1Data.subArray1.length > 0) {
+                <div class="mt-2">
+                    <h5 class="font-medium">Sub-Itens:</h5>
+                    @for (item of step1Data.subArray1; track $index; let i = $index) {
+                        <div class="ml-2 mb-2">
+                            <p><strong>Item {{i+1}}:</strong> {{item.field1}}, {{item.field2}}, {{item.field3}}, {{item.field4}}, {{item.field5}}</p>
+                        </div>
+                    }
+                </div>
+                }
+            </div>
+
+            <div>
+                <h4 class="font-medium">Etapa 2:</h4>
+                <p><strong>Campo 1:</strong> {{step2Data.field1}}</p>
+                <p><strong>Campo 2:</strong> {{step2Data.field2}}</p>
+                <p><strong>Campo 3:</strong> {{step2Data.field3}}</p>
+
+                <h4 class="font-medium">Etapa 3:</h4>
+                <p><strong>Campo 1:</strong> {{field1.value}}</p>
+                <p><strong>Campo 2:</strong> {{field2.value}}</p>
+                <p><strong>Campo 3:</strong> {{field3.value}}</p>
+            </div>
+        </div>
+    </div>
+</form>

@@ -1,0 +1,133 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <div class="mb-4">
+        <label for="field1">Campo 1</label>
+        <input type="text" id="field1" formControlName="field1"
+            class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+        @if (field1.invalid && (field1.dirty || field1.touched)) {
+        <div class="text-red-500 text-sm mt-1">
+            Campo obrigatório
+        </div>
+        }
+    </div>
+
+    <div class="mb-4">
+        <label for="field2">Campo 2</label>
+        <input type="text" id="field2" formControlName="field2"
+            class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+        @if (field2.invalid && (field2.dirty || field2.touched)) {
+        <div class="text-red-500 text-sm mt-1">
+            Campo obrigatório
+        </div>
+        }
+    </div>
+
+    <div class="mb-4">
+        <div class="flex justify-between items-center mb-2">
+            <label class="block text-sm font-medium text-gray-700">Grupo de Campos 1</label>
+            <button (click)="addSubArray1Item()"
+                class="px-2 py-1 bg-blue-600 text-white rounded text-sm hover:bg-blue-700">+ Adicionar</button>
+        </div>
+
+        <div formArrayName="subArray1">
+            @for (item of subArray1Items.controls; track $index; let i = $index) {
+            <div class="border p-3 mb-2 rounded">
+                <div [formGroupName]="i" class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div>
+                        <label [for]="'subField1-'+i" class="block text-sm font-medium text-gray-700">Campo 1</label>
+                        <input type="text" [id]="'subfield1-'+i" formControlName="field1"
+                            class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+                    </div>
+
+                    <div>
+                        <label [for]="'subField2-'+i" class="block text-sm font-medium text-gray-700">Campo 2</label>
+                        <input type="text" [id]="'subfield2-'+i" formControlName="field2"
+                            class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+                    </div>
+
+                    <div>
+                        <label [for]="'subField3-'+i" class="block text-sm font-medium text-gray-700">Campo 3</label>
+                        <input type="text" [id]="'subfield3-'+i" formControlName="field3"
+                            class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+                    </div>
+
+                    <div>
+                        <label [for]="'subField4-'+i" class="block text-sm font-medium text-gray-700">Campo 4</label>
+                        <input type="text" [id]="'subfield4-'+i" formControlName="field4"
+                            class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+                    </div>
+
+                    <div>
+                        <label [for]="'subField5-'+i" class="block text-sm font-medium text-gray-700">Campo 5</label>
+                        <input type="text" [id]="'subfield5-'+i" formControlName="field5"
+                            class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+                        <button type="button" (click)="removeSubArray1Item(i)"
+                            class="mt-1 ml-2 px-2 py-2 bg-red-600 text-white rounded hover:bg-red-700">
+                            X
+                        </button>
+                    </div>
+                </div>
+            </div>
+            }
+            @if (subArray1Items.length === 0) {
+            <div class="text-gray-500 italic">
+                Nenhum item adicionado ainda.
+            </div>
+            }
+        </div>
+    </div>
+
+    <div class="mb-4">
+        <div class="flex justify-between items-center mb-2">
+            <label class="block text-sm font-medium text-gray-700">Grupo de Campos 2</label>
+            <button (click)="addSubArray2Item()"
+                class="px-2 py-1 bg-blue-600 text-white rounded text-sm hover:bg-blue-700">+ Adicionar</button>
+        </div>
+
+        <div formArrayName="subArray2">
+            @for (item of subArray2Items.controls; track $index; let i = $index) {
+            <div class="border p-3 mb-2 rounded">
+                <div [formGroupName]="i" class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div>
+                        <label [for]="'subField1-'+i" class="block text-sm font-medium text-gray-700">Campo 1</label>
+                        <input type="text" [id]="'subfield1-'+i" formControlName="field1"
+                            class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+                    </div>
+
+                    <div>
+                        <label [for]="'subField2-'+i" class="block text-sm font-medium text-gray-700">Campo 2</label>
+                        <input type="text" [id]="'subfield2-'+i" formControlName="field2"
+                            class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+                    </div>
+
+                    <div>
+                        <label [for]="'subField3-'+i" class="block text-sm font-medium text-gray-700">Campo 3</label>
+                        <input type="text" [id]="'subfield3-'+i" formControlName="field3"
+                            class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+                    </div>
+
+                    <div>
+                        <label [for]="'subField4-'+i" class="block text-sm font-medium text-gray-700">Campo 4</label>
+                        <input type="text" [id]="'subfield4-'+i" formControlName="field4"
+                            class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+                    </div>
+
+                    <div>
+                        <label [for]="'subField5-'+i" class="block text-sm font-medium text-gray-700">Campo 5</label>
+                        <input type="text" [id]="'subfield5-'+i" formControlName="field5"
+                            class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+                        <button type="button" (click)="removeSubArray2Item(i)"
+                            class="mt-1 ml-2 px-2 py-2 bg-red-600 text-white rounded hover:bg-red-700">
+                            X
+                        </button>
+                    </div>
+                </div>
+            </div>
+            }
+            @if (subArray1Items.length === 0) {
+            <div class="text-gray-500 italic">
+                Nenhum item adicionado ainda.
+            </div>
+            }
+        </div>
+    </div>
+</form>

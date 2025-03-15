@@ -26,7 +26,7 @@
     "baseUrl": "./",
     "paths": {
       "@core/*": ["src/app/core/*"],
-      "@domain/*": ["src/app/domain/*"],
+      "@domain/*": ["src/app/core/domain/*"],
       "@testing/*": ["src/app/testing/*"],
       "@shared/*": ["src/app/shared/*"],
       "@env/*": ["src/environments/*"]
